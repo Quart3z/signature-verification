@@ -4642,3 +4642,85 @@ Precision, recall & F1: reported for positive class (class 1 - "1") only
 Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
 ==================================================================
 
+2021-10-16 21:10:54,444 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in AWT-EventQueue-0
+                
+Loaded [CpuBackend] backend
+
+2021-10-16 21:10:56,209 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in AWT-EventQueue-0
+                
+Number of threads used for linear algebra: 4
+
+2021-10-16 21:10:56,211 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in AWT-EventQueue-0
+                
+Binary level Generic x86 optimization level AVX/AVX2
+
+2021-10-16 21:10:56,304 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in AWT-EventQueue-0
+                
+Number of threads used for OpenMP BLAS: 4
+
+2021-10-16 21:10:56,357 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in AWT-EventQueue-0
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2021-10-16 21:10:56,357 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in AWT-EventQueue-0
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-16 21:10:56,358 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in AWT-EventQueue-0
+                
+Blas vendor: [OPENBLAS]
+
+2021-10-16 21:10:56,363 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuBackend in AWT-EventQueue-0
+                
+Backend build information:
+ GCC: "10.3.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+
+2021-10-16 21:10:57,461 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in AWT-EventQueue-0
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-10-16 21:12:50,959 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in AWT-EventQueue-0
+                
+Loaded [CpuBackend] backend
+
+2021-10-16 21:12:52,980 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in AWT-EventQueue-0
+                
+Number of threads used for linear algebra: 4
+
+2021-10-16 21:12:52,982 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in AWT-EventQueue-0
+                
+Binary level Generic x86 optimization level AVX/AVX2
+
+2021-10-16 21:12:53,079 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in AWT-EventQueue-0
+                
+Number of threads used for OpenMP BLAS: 4
+
+2021-10-16 21:12:53,129 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in AWT-EventQueue-0
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2021-10-16 21:12:53,129 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in AWT-EventQueue-0
+                
+Cores: [4]; Memory: [4.0GB];
+
+2021-10-16 21:12:53,129 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in AWT-EventQueue-0
+                
+Blas vendor: [OPENBLAS]
+
+2021-10-16 21:12:53,133 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuBackend in AWT-EventQueue-0
+                
+Backend build information:
+ GCC: "10.3.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+
+2021-10-16 21:13:18,277 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in AWT-EventQueue-0
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+

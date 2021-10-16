@@ -1,4 +1,4 @@
-package global.skymind.GroupProject;
+package application;
 
 import ch.qos.logback.classic.BasicConfigurator;
 import org.datavec.image.loader.ImageLoader;
@@ -150,7 +150,7 @@ public class SignatureVerification {
 
     public static boolean predict(File input) throws IOException {
 
-        MultiLayerNetwork model = ModelSerializer.restoreMultiLayerNetwork("C:/Users/skymind/Desktop/GP/signature-verification/src/main/java/application/model.zip");
+        MultiLayerNetwork model = ModelSerializer.restoreMultiLayerNetwork(new File(System.getProperty("user.dir"), "src/main/java/application/model.zip"));
 
         ImageLoader imageLoader = new ImageLoader(width, height, 3);
         INDArray image = imageLoader.asMatrix(input);
@@ -226,7 +226,7 @@ public class SignatureVerification {
         System.out.println("Train Data: " + evalTrain.stats());
         System.out.println("Test Data : " + evalTest.stats());
 
-        ModelSerializer.writeModel(model, "C:/Users/skymind/Desktop/GP/signature-verification/src/main/java/application/model.zip", true);
+        ModelSerializer.writeModel(model, "model.zip", true);
 
     }
 
