@@ -5,3 +5,6 @@
 ### How to use
 ### Demo
 ### References
+
+### To Fix
+- absolute path on getting model.zip
