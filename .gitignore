@@ -1,0 +1,10 @@
+/target/classes/sign_data/
+/src/main/resources/
+/logs/
+/generated-models/
+src/main/java/application/model.zip
+
+
+*.zip
+*.rar
+*.log
